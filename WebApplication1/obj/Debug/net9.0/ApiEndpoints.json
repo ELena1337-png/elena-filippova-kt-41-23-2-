@@ -1,0 +1,19 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controllers.StudentController",
+    "Method": "GetStudentsByGroupAsync",
+    "RelativePath": "Student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "WebApplication1.Filters.StudentFilters.StudentGroupFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetStudentsByGroup"
+  }
+]
